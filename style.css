@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0px;
+    font-family: "Open Sans";
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+main p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 100px;
+}
+
+#logo h2, i, nav {
+    width: min-content;
+    display: flex;
+    align-items: center;
+    display: inline;
+}
+
+#logo nav {
+    margin: 0px 35px;
+}
+
+#logo nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px;
+    font-weight: 100;
+}
+
+main {
+    text-align: center;
+    margin: 120px 0px 0px;
+}
+
+.blue-text {
+    color: rgba(255, 0, 0, 0.899);
+}
+
+input {
+    height: 35px;
+    width: 200px;
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 3px;
+    padding: 0px 10px;
+    font-size: 16px;
+    margin: 0px 5px;
+}
+
+button {
+    height: 35px;
+    width: 212px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, 0.899);
+    color: rgb(255, 199, 199);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px 5px;
+}
